@@ -354,7 +354,9 @@ a{
     background-color: #2e2f42;
     align-items: baseline;
 }
-
+.container-logo{
+    margin-right: 120px;
+}
 .logo{
     font-family: "Raleway" sans-serif;
     font-weight: 700;
@@ -379,16 +381,16 @@ a{
 }
 
 .footer-title-icons{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
 }
 .container-footer-icons{
     /* display: flex; */
-    margin-left: 120px;
+  
     justify-content: flex-start;
 }
 .all-icons-footer{
