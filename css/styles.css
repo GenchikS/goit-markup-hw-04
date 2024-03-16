@@ -61,6 +61,9 @@ a{
     gap: 40px;
     display: flex;
 }
+.navi-style{
+    padding: 24px 0;
+}
 
 .text-navi{
     font-weight: 500;
@@ -69,7 +72,8 @@ a{
     letter-spacing: 0.02em;
     padding: 24px 0;
     color: #2E2F42;
-    }
+}
+
 
 .text-navi-studio{
     font-weight: 500;
@@ -87,9 +91,22 @@ a{
     color: #404bbf;
 }
 
-.navi-style{
-    padding: 24px 0;
+.text-navi{
+    position: relative;
+    color: #404BBF;
 }
+
+.text-navi::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+}
+
 
 .adress{
     margin-left: 332px;
@@ -251,9 +268,6 @@ a{
     background-color: #FFFFFF;
 }
 
-/* .team-img{
-    margin-bottom: 32px;
-} */
 .container-team-card{
     padding: 32px 0;
 }
