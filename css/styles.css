@@ -68,9 +68,20 @@ a{
     line-height: 1.5; 
     letter-spacing: 0.02em;
     padding: 24px 0;
-    color: #2e2f42;
-   
+    color: #2E2F42;
     }
+
+.text-navi-studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .text-navi:hover,
 .text-navi:focus{
     color: #404bbf;
@@ -103,6 +114,7 @@ a{
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts:hover,
 .contacts:focus{
@@ -282,9 +294,11 @@ a{
         fill: #f4f4fd; 
         background-color: #4D5AE5;
         border-radius: 50%;
-    }
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
     
-    .icons-link:hover{
+    .icons-link:hover,
+    .icons-link:focus{
         background-color: #31D0AA;
     }
 
@@ -386,8 +400,9 @@ a{
     line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
     margin-bottom: 16px;
+    color: #ffffff;
+    
 }
 .container-footer-icons{
    justify-content: flex-start;
@@ -398,4 +413,9 @@ a{
     justify-content: center;
     align-items: center;
     gap:16px;
+}
+
+.footer-icons-link{
+    width: 40px;
+    height: 40px;
 }
