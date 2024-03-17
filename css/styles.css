@@ -330,7 +330,7 @@ a{
 }
     
 .icons-link:focus,
-.icons-link:hover{
+.icons-link:hover {
     background-color: #404bbf;
 }
 
@@ -450,10 +450,6 @@ a{
     color:#4d5ae5;
 }
 
-.logo:focus{
-    background-color: #31d0aa;
-}
-
 .footer .studio{color:  #f4f4fd;}
 
 .footer-text{
@@ -503,6 +499,6 @@ a{
 }
 
 .icons-link-footer:hover,
-.icons-link-footer:focus{
+.icons-link-footer:focus {
     background-color: #31d0aa;
 }
