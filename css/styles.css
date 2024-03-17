@@ -96,7 +96,7 @@ a{
     color: #404BBF;
 }
 
-.navi-style::after{
+.text-navi-studio::after{
     content: "";
     position: absolute;
     left: 0;
