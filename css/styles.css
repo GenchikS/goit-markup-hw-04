@@ -463,16 +463,19 @@ a{
     color: #F4F4FD;
 }
 
-.footer-title-icons{
+.container-footer-icons{
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+ }
+
+.footer-title-media{
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 16px;
-}
-.container-footer-icons{
-   justify-content: flex-start;
 }
 
 .all-icons-footer{
