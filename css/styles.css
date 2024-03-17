@@ -466,11 +466,10 @@ a{
 .footer-title-icons{
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px; 
-    line-height: 1.5;
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #ffffff;
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
 }
 .container-footer-icons{
    justify-content: flex-start;
