@@ -385,9 +385,11 @@ a{
 
 .portfilio-list:hover .portfilio-overflow{
     transform: translateY(0%);
+    }
+
+.portfilio-list:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 .container-cart{
     width: 360px;
     height: 120px;
@@ -498,7 +500,9 @@ a{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-link-footer:hover,
-.icons-link-footer:focus {
+.icons-link-footer:hover {
+    background-color: #31d0aa;
+}
+.icons-link-footer:focus{
     background-color: #31d0aa;
 }
