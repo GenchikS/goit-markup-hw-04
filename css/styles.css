@@ -427,16 +427,16 @@ a{
 /* section footer */
 .footer{
     padding: 100px 0;
+    max-width: 1440px;
     background-color: #2e2f42;
+    margin: 0 auto;
+    padding-left: 156px;
 }
 
 .container-footer{
     display: flex;
     align-items: baseline;
-    flex-direction: row;
-    width: 1440px;
-    padding-left: 156px;
-   margin: 0 auto;
+    /* flex-direction: row; */
 }
 
 .container-logo{
